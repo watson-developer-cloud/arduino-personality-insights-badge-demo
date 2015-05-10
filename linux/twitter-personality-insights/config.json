@@ -1,0 +1,14 @@
+{
+  "//": "Create a service instance at bluemix.net, bind it to a server, click Show Credentials",
+  "personality_insights": {
+    "url": "https://gateway.watsonplatform.net/personality-insights/api",
+    "username": "<Your Personality Insights instance username>",
+    "password": "<Your Personality Insights instance password>"
+  },
+  "twitter": {
+    "consumer_key": "<Consumer Key>",
+    "consumer_secret": "<Consumer Secret>",
+    "token": "<Access Token>",
+    "token_secret": "<Access Token Secret>"
+  }
+}
