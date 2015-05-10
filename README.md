@@ -6,6 +6,8 @@ Arduino Yún-based demo that displays your Twitter handle and "Big 5" personalit
 Uses IBM Watson Personality Insights service to calculate your personality traits based on
 your recent tweets.
 
+[![Picture of badge in action](https://watson-developer-cloud.github.io/arduino-pi-badge-demo/watson-pi-twitter-badge-small.jpg)](https://watson-developer-cloud.github.io/arduino-pi-badge-demo/watson-pi-twitter-badge.jpg)
+
 Set Up
 ------
 
