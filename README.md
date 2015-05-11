@@ -11,15 +11,15 @@ your recent tweets.
 Set Up
 ------
 
-Accounts:
+### Credentials:
 
 Create a Personality Insights service instance at http://bluemix.net/ and bind it to a 
 server instance. Then view the server's dashboard and click View Credentials on the service.
 Copy the credentials to `linux/twitter-personality-insights/credentials.json`.
 
-Create a twitter app and also copy it's credentials to `credentials.json`.
+Create a twitter app at https://apps.twitter.com/ and also copy it's credentials to `credentials.json`.
 
-Linux Setup:
+### Linux Setup:
 
 Copy the `arduino/pibadge/` folder into your Arduino Projects folder.
 
@@ -37,13 +37,13 @@ pip install --target /mnt/sda1/python-packages twitter # current release of twit
 pip install --target /mnt/sda1/python-packages requests==2.5.3 # outdated release of requests that works on Yun's outdated python version
 ```
 
-Wiring:
+### Wiring:
 
 You'll need to connect a display such as [this one](https://www.adafruit.com/products/358) - 
 note that on the Yun, the only SPI pins are on the ICSP header, so you'll need a female 
 connector on at least two of your wires.
 
-Bringing it all together: 
+### Bringing it all together: 
 
 Upload the sketch and wait a minute or two for it to process things, then enjoy your new
 Personality Insights Badge!
