@@ -5,6 +5,8 @@
     "username": "<Your Personality Insights instance username>",
     "password": "<Your Personality Insights instance password>"
   },
+  
+  "/**": "Create an app at apps.twitter.com to retrieve these credentials",
   "twitter": {
     "consumer_key": "<Consumer Key>",
     "consumer_secret": "<Consumer Secret>",
