@@ -17,6 +17,8 @@ Create a Personality Insights service instance at http://bluemix.net/ and bind i
 server instance. Then view the server's dashboard and click View Credentials on the service.
 Copy the credentials to `linux/twitter-personality-insights/credentials.json`.
 
+Instructions on how to get credentials for a Watson service can be found [here](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/getting_started/gs-quick-nodejs.shtml#credentials).
+
 Create a twitter app at https://apps.twitter.com/ and also copy it's credentials to `credentials.json`.
 
 ### Linux Setup:
