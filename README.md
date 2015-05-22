@@ -18,11 +18,12 @@ Set Up
 Part | Price | Vendor
 -----|-------|-------
 Arduino Yún | $55.01 | [Arduino Store](http://store.arduino.cc/product/A000008)
+MicroSd Card | $8.36 | [Arduino Store](http://store.arduino.cc/product/X000009)
 1.8" EDS TFT LCD | $6.80 | [Electrodragon](www.electrodragon.com/product/eds-tft-lcd-lcm-spi-interface-variable1-82-2/)
 Male-to-Female Wires | $2.30 | [Electrodragon](http://www.electrodragon.com/product/prototype-cable-female-and-male-end-40p/)
 Female-to-Female Wires | $1.80 | [Electrodragon](http://www.electrodragon.com/product/ff-40p-dupont-prototype-cables-female-female-end/)
 
-If you'd prefer a single, US-based vendor, Adafruit sells an [equivalent display](https://www.adafruit.com/products/358) and the [other](https://www.adafruit.com/products/1498) [necessary](https://www.adafruit.com/products/826) [parts](https://www.adafruit.com/product/266).
+If you'd prefer a single, US-based vendor, Adafruit sells an [equivalent display](https://www.adafruit.com/products/358) and [the](https://www.adafruit.com/products/1498) [other](https://www.adafruit.com/products/102) [necessary](https://www.adafruit.com/products/826) [parts](https://www.adafruit.com/product/266).
 
 Note: while the EDS TFT display is avaliable in larger sizes, only the 1.8" is 5v tolerant. Adafruit offers several options for [larger 5v-tollerant displays](https://www.adafruit.com/categories/97).
 
