@@ -11,6 +11,23 @@ your recent tweets.
 Set Up
 ------
 
+### Parts and Wiring:
+
+![Breadboard layout](https://watson-developer-cloud.github.io/arduino-pi-badge-demo/arduino-pi-badge-bb.png)
+
+Part | Price | Vendor
+-----|-------|-------
+Arduino Yún | $55.01 | [Arduino Store](http://store.arduino.cc/product/A000008)
+1.8" EDS TFT LCD | $6.80 | [Electrodragon](www.electrodragon.com/product/eds-tft-lcd-lcm-spi-interface-variable1-82-2/)
+Male-to-Female Wires | $2.30 | [Electrodragon](http://www.electrodragon.com/product/prototype-cable-female-and-male-end-40p/)
+Female-to-Female Wires | $1.80 | [Electrodragon](http://www.electrodragon.com/product/ff-40p-dupont-prototype-cables-female-female-end/)
+
+If you'd prefer a single, US-based vendor, Adafruit sells an [equivalent display](https://www.adafruit.com/products/358) and the [other](https://www.adafruit.com/products/1498) [necessary](https://www.adafruit.com/products/826) [parts](https://www.adafruit.com/product/266).
+
+Note: while the EDS TFT display is avaliable in larger sizes, only the 1.8" is 5v tolerant. Adafruit offers several options for [larger 5v-tollerant displays](https://www.adafruit.com/categories/97).
+
+Also note that even on the 1.8" EDS TFT, the LED pin only accepts 3.3v.
+
 ### Credentials:
 
 Create a Personality Insights service instance at http://bluemix.net/ and bind it to a 
@@ -39,11 +56,6 @@ pip install --target /mnt/sda1/python-packages twitter # current release of twit
 pip install --target /mnt/sda1/python-packages requests==2.5.3 # outdated release of requests that works on Yun's outdated python version
 ```
 
-### Wiring:
-
-You'll need to connect a display such as [this one](https://www.adafruit.com/products/358) - 
-note that on the Yun, the only SPI pins are on the ICSP header, so you'll need a female 
-connector on at least two of your wires.
 
 ### Bringing it all together: 
 
