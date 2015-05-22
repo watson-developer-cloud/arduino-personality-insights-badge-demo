@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg width="2.43in" x="0in" version="1.2" y="0in" xmlns="http://www.w3.org/2000/svg" height="1.26in" viewBox="0 0 243 126" baseProfile="full">
+ <desc>Electrodragon 1.8" EDS TFT LCD by Nathan Friedly</desc>
+ <g id="breadboard" stroke-width="0">
+  <g id="icon" stroke-width="0">
+   <path fill="#C62717" stroke="none" stroke-width="0" d="M 0 0 V 126 H 243 V 0 z"/>
+
+    <title>Electrodragon 1.8" EDS TFT LCD</title>
+
+	<text x="70" y="50" font-family="OCRA" fill="#ffffff" text-anchor="start" stroke="none" stroke-width="0" font-size="10pt">1.8" EDS TFT LCD</text>
+	<text x="72" y="70" font-family="OCRA" fill="#ffffff" text-anchor="start" stroke="none" stroke-width="0" font-size="8pt">www.electrodragon.com</text>
+	
+	<g id="pins" transform="translate(0,-2)">
+		<g font-family="OCRA" fill="#ffffff" text-anchor="start" stroke="none" stroke-width="0" font-size="6pt">
+			<text x="25" y="31">LED</text>
+			<text x="25" y="41">SCK</text>
+			<text x="25" y="52">SDA</text>
+			<text x="25" y="63">A0</text>
+			<text x="25" y="73">RESET</text>
+			<text x="25" y="84">CS</text>
+			<text x="25" y="94">GND</text>
+			<text x="25" y="104">VCC</text>
+		</g>
+
+	   <rect x="10" y="25" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="35" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="45" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="55" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="65" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="75" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="85" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+	   <rect x="10" y="95" rx="2" ry="2" width="10" height="10" stroke="black" fill="#222222" stroke-width="2"/>
+  
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="28.5" ry="2" height="3" width="3" stroke="none" connectorname="LED" id="connector1pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="38.5" ry="2" height="3" width="3" stroke="none" connectorname="SCK" id="connector2pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="48.5" ry="2" height="3" width="3" stroke="none" connectorname="SDA" id="connector3pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="58.5" ry="2" height="3" width="3" stroke="none" connectorname="A0" id="connector4pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="68.5" ry="2" height="3" width="3" stroke="none" connectorname="RESET" id="connector5pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="78.5" ry="2" height="3" width="3" stroke="none" connectorname="CS" id="connector6pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="88.5" ry="2" height="3" width="3" stroke="none" connectorname="GND" id="connector7pin"/>
+	   <rect fill="#8C8C8C" x="13.5" rx="2" y="98.5" ry="2" height="3" width="3" stroke="none" connectorname="VCC" id="connector8pin"/>
+   </g>
+   
+   <circle fill="white" r="7" cy="12" cx="12"/>
+   <circle fill="white" r="7" cy="114" cx="12"/>
+   <circle fill="white" r="7" cy="114" cx="231"/>
+   <circle fill="white" r="7" cy="12" cx="231"/>
+	</g>
+ </g>
+</svg>
