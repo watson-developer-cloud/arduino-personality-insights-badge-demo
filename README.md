@@ -1,6 +1,8 @@
 IBM Watson Personality Insights Badge
 =====================================
 
+## DEPRECATED: this repo is no longer actively maintained. It can still be used as reference, but may contain outdated or unpatched code.
+
 Arduino Yún-based demo that displays your Twitter handle and "Big 5" personality traits.
 
 Uses IBM Watson [Personality Insights](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/personality-insights.html) service to calculate your personality traits based on
